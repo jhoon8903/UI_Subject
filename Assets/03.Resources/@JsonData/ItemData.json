@@ -1,0 +1,157 @@
+{
+  "items": [
+    {
+      "primeKey": 0,
+      "sprite": null,
+      "name": "Machete",
+      "type": 2,
+      "attribute": 5,
+      "desc": null,
+      "price": 50
+    },
+    {
+      "primeKey": 1,
+      "sprite": null,
+      "name": "Lance",
+      "type": 2,
+      "attribute": 10,
+      "desc": null,
+      "price": 100
+    },
+    {
+      "primeKey": 2,
+      "sprite": null,
+      "name": "Club",
+      "type": 2,
+      "attribute": 4,
+      "desc": null,
+      "price": 40
+    },
+    {
+      "primeKey": 3,
+      "sprite": null,
+      "name": "Sword",
+      "type": 2,
+      "attribute": 4,
+      "desc": null,
+      "price": 40
+    },
+    {
+      "primeKey": 4,
+      "sprite": null,
+      "name": "Hook",
+      "type": 2,
+      "attribute": 3,
+      "desc": null,
+      "price": 30
+    },
+    {
+      "primeKey": 5,
+      "sprite": null,
+      "name": "Shield",
+      "type": 3,
+      "attribute": 15,
+      "desc": null,
+      "price": 150
+    },
+    {
+      "primeKey": 6,
+      "sprite": null,
+      "name": "PirateHat",
+      "type": 0,
+      "attribute": 3,
+      "desc": null,
+      "price": 30
+    },
+    {
+      "primeKey": 7,
+      "sprite": null,
+      "name": "FeatherHat",
+      "type": 0,
+      "attribute": 3,
+      "desc": null,
+      "price": 30
+    },
+    {
+      "primeKey": 8,
+      "sprite": null,
+      "name": "EyePatch",
+      "type": 0,
+      "attribute": 1,
+      "desc": null,
+      "price": 10
+    },
+    {
+      "primeKey": 9,
+      "sprite": null,
+      "name": "GreenBandana",
+      "type": 0,
+      "attribute": 2,
+      "desc": null,
+      "price": 20
+    },
+    {
+      "primeKey": 10,
+      "sprite": null,
+      "name": "BlackBandana",
+      "type": 0,
+      "attribute": 2,
+      "desc": null,
+      "price": 20
+    },
+    {
+      "primeKey": 11,
+      "sprite": null,
+      "name": "MermaidHair",
+      "type": 0,
+      "attribute": 5,
+      "desc": null,
+      "price": 50
+    },
+    {
+      "primeKey": 12,
+      "sprite": null,
+      "name": "SquidHair",
+      "type": 0,
+      "attribute": 10,
+      "desc": null,
+      "price": 100
+    },
+    {
+      "primeKey": 13,
+      "sprite": null,
+      "name": "BlindFold",
+      "type": 0,
+      "attribute": 3,
+      "desc": null,
+      "price": 30
+    },
+    {
+      "primeKey": 14,
+      "sprite": null,
+      "name": "GreenVest",
+      "type": 1,
+      "attribute": 10,
+      "desc": null,
+      "price": 100
+    },
+    {
+      "primeKey": 15,
+      "sprite": null,
+      "name": "BlackVest",
+      "type": 1,
+      "attribute": 12,
+      "desc": null,
+      "price": 120
+    },
+    {
+      "primeKey": 16,
+      "sprite": null,
+      "name": "Cloak",
+      "type": 1,
+      "attribute": 15,
+      "desc": null,
+      "price": 150
+    }
+  ]
+}
