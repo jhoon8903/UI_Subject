@@ -1,0 +1,40 @@
+{
+  "character": [
+    {
+      "primeKey": 0,
+      "name": "Chad",
+      "jobClass": 0,
+      "level": 1,
+      "exp": 0,
+      "gold": 0,
+      "damage": 10,
+      "defence": 9,
+      "criticalRate": 1,
+      "inventory": null
+    },
+    {
+      "primeKey": 1,
+      "name": "Mike",
+      "jobClass": 1,
+      "level": 1,
+      "exp": 0,
+      "gold": 0,
+      "damage": 8,
+      "defence": 8,
+      "criticalRate": 4,
+      "inventory": null
+    },
+    {
+      "primeKey": 2,
+      "name": "Godic",
+      "jobClass": 2,
+      "level": 1,
+      "exp": 0,
+      "gold": 0,
+      "damage": 6,
+      "defence": 12,
+      "criticalRate": 2,
+      "inventory": null
+    }
+  ]
+}

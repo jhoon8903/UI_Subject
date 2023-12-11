@@ -2,17 +2,20 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ServiceLocator : MonoBehaviour
+namespace _01.Scripts.Utility
 {
-    private static readonly Dictionary<Type, object> Services = new();
-
-    public static void RegisterService<T>(T service)
+    public class ServiceLocator
     {
-        Services[typeof(T)] = service;
-    }
+        private static readonly Dictionary<Type, object> Services = new();
 
-    public static T GetService<T>()
-    {
-        return (T)Services[typeof(T)];
+        public static void RegisterService<T>(T service)
+        {
+            Services[typeof(T)] = service;
+        }
+
+        public static T GetService<T>()
+        {
+            return (T)Services[typeof(T)];
+        }
     }
 }
