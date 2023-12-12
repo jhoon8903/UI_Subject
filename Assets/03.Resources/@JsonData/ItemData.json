@@ -1,157 +1,157 @@
 {
   "items": [
     {
-      "primeKey": 0,
-      "sprite": null,
-      "name": "Machete",
-      "type": 2,
-      "attribute": 5,
-      "desc": null,
-      "price": 50
+      "PrimeKey": "Machete",
+      "Sprite": null,
+      "Name": "Machete",
+      "Type": 2,
+      "Attribute": 5,
+      "Desc": null,
+      "Price": 50
     },
     {
-      "primeKey": 1,
-      "sprite": null,
-      "name": "Lance",
-      "type": 2,
-      "attribute": 10,
-      "desc": null,
-      "price": 100
+      "PrimeKey": "Lance",
+      "Sprite": null,
+      "Name": "Lance",
+      "Type": 2,
+      "Attribute": 10,
+      "Desc": null,
+      "Price": 100
     },
     {
-      "primeKey": 2,
-      "sprite": null,
-      "name": "Club",
-      "type": 2,
-      "attribute": 4,
-      "desc": null,
-      "price": 40
+      "PrimeKey": "Club",
+      "Sprite": null,
+      "Name": "Club",
+      "Type": 2,
+      "Attribute": 4,
+      "Desc": null,
+      "Price": 40
     },
     {
-      "primeKey": 3,
-      "sprite": null,
-      "name": "Sword",
-      "type": 2,
-      "attribute": 4,
-      "desc": null,
-      "price": 40
+      "PrimeKey": "Sword",
+      "Sprite": null,
+      "Name": "Sword",
+      "Type": 2,
+      "Attribute": 4,
+      "Desc": null,
+      "Price": 40
     },
     {
-      "primeKey": 4,
-      "sprite": null,
-      "name": "Hook",
-      "type": 2,
-      "attribute": 3,
-      "desc": null,
-      "price": 30
+      "PrimeKey": "Hook",
+      "Sprite": null,
+      "Name": "Hook",
+      "Type": 2,
+      "Attribute": 3,
+      "Desc": null,
+      "Price": 30
     },
     {
-      "primeKey": 5,
-      "sprite": null,
-      "name": "Shield",
-      "type": 3,
-      "attribute": 15,
-      "desc": null,
-      "price": 150
+      "PrimeKey": "Shield",
+      "Sprite": null,
+      "Name": "Shield",
+      "Type": 3,
+      "Attribute": 15,
+      "Desc": null,
+      "Price": 150
     },
     {
-      "primeKey": 6,
-      "sprite": null,
-      "name": "PirateHat",
-      "type": 0,
-      "attribute": 3,
-      "desc": null,
-      "price": 30
+      "PrimeKey": "PirateHat",
+      "Sprite": null,
+      "Name": "PirateHat",
+      "Type": 0,
+      "Attribute": 3,
+      "Desc": null,
+      "Price": 30
     },
     {
-      "primeKey": 7,
-      "sprite": null,
-      "name": "FeatherHat",
-      "type": 0,
-      "attribute": 3,
-      "desc": null,
-      "price": 30
+      "PrimeKey": "FeatherHat",
+      "Sprite": null,
+      "Name": "FeatherHat",
+      "Type": 0,
+      "Attribute": 3,
+      "Desc": null,
+      "Price": 30
     },
     {
-      "primeKey": 8,
-      "sprite": null,
-      "name": "EyePatch",
-      "type": 0,
-      "attribute": 1,
-      "desc": null,
-      "price": 10
+      "PrimeKey": "EyePatch",
+      "Sprite": null,
+      "Name": "EyePatch",
+      "Type": 0,
+      "Attribute": 1,
+      "Desc": null,
+      "Price": 10
     },
     {
-      "primeKey": 9,
-      "sprite": null,
-      "name": "GreenBandana",
-      "type": 0,
-      "attribute": 2,
-      "desc": null,
-      "price": 20
+      "PrimeKey": "GreenBandana",
+      "Sprite": null,
+      "Name": "GreenBandana",
+      "Type": 0,
+      "Attribute": 2,
+      "Desc": null,
+      "Price": 20
     },
     {
-      "primeKey": 10,
-      "sprite": null,
-      "name": "BlackBandana",
-      "type": 0,
-      "attribute": 2,
-      "desc": null,
-      "price": 20
+      "PrimeKey": "BlackBandana",
+      "Sprite": null,
+      "Name": "BlackBandana",
+      "Type": 0,
+      "Attribute": 2,
+      "Desc": null,
+      "Price": 20
     },
     {
-      "primeKey": 11,
-      "sprite": null,
-      "name": "MermaidHair",
-      "type": 0,
-      "attribute": 5,
-      "desc": null,
-      "price": 50
+      "PrimeKey": "MermaidHair",
+      "Sprite": null,
+      "Name": "MermaidHair",
+      "Type": 0,
+      "Attribute": 5,
+      "Desc": null,
+      "Price": 50
     },
     {
-      "primeKey": 12,
-      "sprite": null,
-      "name": "SquidHair",
-      "type": 0,
-      "attribute": 10,
-      "desc": null,
-      "price": 100
+      "PrimeKey": "SquidHair",
+      "Sprite": null,
+      "Name": "SquidHair",
+      "Type": 0,
+      "Attribute": 10,
+      "Desc": null,
+      "Price": 100
     },
     {
-      "primeKey": 13,
-      "sprite": null,
-      "name": "BlindFold",
-      "type": 0,
-      "attribute": 3,
-      "desc": null,
-      "price": 30
+      "PrimeKey": "BlindFold",
+      "Sprite": null,
+      "Name": "BlindFold",
+      "Type": 0,
+      "Attribute": 3,
+      "Desc": null,
+      "Price": 30
     },
     {
-      "primeKey": 14,
-      "sprite": null,
-      "name": "GreenVest",
-      "type": 1,
-      "attribute": 10,
-      "desc": null,
-      "price": 100
+      "PrimeKey": "GreenVest",
+      "Sprite": null,
+      "Name": "GreenVest",
+      "Type": 1,
+      "Attribute": 10,
+      "Desc": null,
+      "Price": 100
     },
     {
-      "primeKey": 15,
-      "sprite": null,
-      "name": "BlackVest",
-      "type": 1,
-      "attribute": 12,
-      "desc": null,
-      "price": 120
+      "PrimeKey": "BlackVest",
+      "Sprite": null,
+      "Name": "BlackVest",
+      "Type": 1,
+      "Attribute": 12,
+      "Desc": null,
+      "Price": 120
     },
     {
-      "primeKey": 16,
-      "sprite": null,
-      "name": "Cloak",
-      "type": 1,
-      "attribute": 15,
-      "desc": null,
-      "price": 150
+      "PrimeKey": "Cloak",
+      "Sprite": null,
+      "Name": "Cloak",
+      "Type": 1,
+      "Attribute": 15,
+      "Desc": null,
+      "Price": 150
     }
   ]
 }

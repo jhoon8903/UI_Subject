@@ -7,7 +7,7 @@ namespace _01.Scripts.Data
     public class CharacterData
     {
         #region Property
-        public int PrimeKey { get => _primeKey; set => _primeKey = value; }
+        public string PrimeKey { get => _primeKey; set => _primeKey = value; }
         public string Name { get => _name; set => _name = value; }
         public JobClass JobClass { get => _jobClass; set => _jobClass = value; }
         public int Level { get => _level; set => _level = value; }
@@ -20,7 +20,7 @@ namespace _01.Scripts.Data
         #endregion
 
         #region Field
-        private int _primeKey;
+        private string _primeKey;
         private string _name;
         private JobClass _jobClass;
         private int _level;

@@ -73,7 +73,7 @@ namespace _01.Scripts.Editor
         { 
             loader.items.Add(new ItemData
             {
-                PrimeKey = int.Parse(row[0]),
+                PrimeKey = row[0],
                 Name = row[1],
                 Type = (Itemtypes)Enum.Parse(typeof(Itemtypes),row[2]),
                 Attribute = int.Parse(row[3]),
@@ -88,7 +88,7 @@ namespace _01.Scripts.Editor
         {
             loader.character.Add(new CharacterData
             {
-                PrimeKey = int.Parse(row[0]),
+                PrimeKey = row[0],
                 Name = row[1],
                 JobClass = (JobClass)Enum.Parse(typeof(JobClass),row[2]),
                 Level = int.Parse(row[3]), 

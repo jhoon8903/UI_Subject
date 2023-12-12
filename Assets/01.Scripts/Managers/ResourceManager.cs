@@ -4,13 +4,14 @@ using _01.Scripts.Utility;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using Object = UnityEngine.Object;
 
 namespace _01.Scripts.Managers
 {
     public class ResourceManager
     {
         public bool Loaded { get; set; }
-        private Dictionary<string, UnityEngine.Object> _resources = new();
+        private readonly Dictionary<string, Object> _resources = new();
         private MainManager _mainManager;
 
         public void Initialize()
@@ -18,18 +19,18 @@ namespace _01.Scripts.Managers
             _mainManager = ServiceLocator.GetService<MainManager>();
         }
 
-        private void HandleCallback<T>(string key, AsyncOperationHandle<T> handle, Action<T> cb) where T : UnityEngine.Object
+        private void HandleCallback<T>(string key, AsyncOperationHandle<T> handle, Action<T> cb) where T : Object
         {
-            handle.Completed += handle =>
+            handle.Completed += operationHandle =>
             {
-                _resources.Add(key, handle.Result);
-                cb?.Invoke(handle.Result);
+                _resources.Add(key, operationHandle.Result);
+                cb?.Invoke(operationHandle.Result);
             };
         }
 
-        public void LoadAsync<T>(string key, Action<T> cb = null) where T : UnityEngine.Object
+        public void LoadAsync<T>(string key, Action<T> cb = null) where T : Object
         {
-            if (_resources.TryGetValue(key, out UnityEngine.Object resource))
+            if (_resources.TryGetValue(key, out Object resource))
             {
                 cb?.Invoke(resource as T);
                 return;
@@ -52,7 +53,7 @@ namespace _01.Scripts.Managers
             }
         }
 
-        public void LoadAsync<T>(string label, Action<string, int, int> cb)  where T : UnityEngine.Object
+        public void LoadAllAsync<T>(string label, Action<string, int, int> cb)  where T : Object
         {
             var operation = Addressables.LoadResourceLocationsAsync(label, typeof(T));
             operation.Completed += op =>
@@ -71,9 +72,9 @@ namespace _01.Scripts.Managers
             Loaded = true;
         }
 
-        public T Load<T>(string key) where T : UnityEngine.Object
+        public T Load<T>(string key) where T : Object
         {
-            if (!_resources.TryGetValue(key, out UnityEngine.Object resource)) return null;
+            if (!_resources.TryGetValue(key, out Object resource)) return null;
             return resource as T;
         }
 
@@ -90,6 +91,12 @@ namespace _01.Scripts.Managers
         private GameObject InstantiateEvent(GameObject prefab, Transform parent)
         {
             return EventManager.OnInstantiate(prefab, parent);
+        }
+
+        public void Destroy(GameObject popupGameObject)
+        {
+            if (popupGameObject == null) return;
+            Object.Destroy(popupGameObject);
         }
     }
 }

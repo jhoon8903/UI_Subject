@@ -7,13 +7,13 @@ using _01.Scripts.Interfaces;
 namespace _01.Scripts.Loader
 {
     [Serializable]
-    public class JobDataLoader : ILoader<JobClass, JobData>
+    public class JobDataLoader : ILoader<string, JobData>
     {
         public List<JobData> jobs = new();
 
-        public Dictionary<JobClass, JobData> CreateData()
+        public Dictionary<string, JobData> CreateData()
         {
-            return jobs.ToDictionary(job => job.JobClass);
+            return jobs.ToDictionary(job => job.JobClass.ToString());
         }
     }
 }

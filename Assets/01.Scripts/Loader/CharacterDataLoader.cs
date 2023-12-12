@@ -7,11 +7,11 @@ using _01.Scripts.Interfaces;
 namespace _01.Scripts.Loader
 {
     [Serializable]
-    public class CharacterDataLoader : ILoader<int, CharacterData>
+    public class CharacterDataLoader : ILoader<string, CharacterData>
     {
         public List<CharacterData> character = new();
 
-        public Dictionary<int, CharacterData> CreateData()
+        public Dictionary<string, CharacterData> CreateData()
         {
             return character.ToDictionary(player => player.PrimeKey);
         }

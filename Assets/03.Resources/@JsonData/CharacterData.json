@@ -1,40 +1,40 @@
 {
   "character": [
     {
-      "primeKey": 0,
-      "name": "Chad",
-      "jobClass": 0,
-      "level": 1,
-      "exp": 0,
-      "gold": 0,
-      "damage": 10,
-      "defence": 9,
-      "criticalRate": 1,
-      "inventory": null
+      "PrimeKey": "Chad",
+      "Name": "Chad",
+      "JobClass": 0,
+      "Level": 1,
+      "Exp": 0,
+      "Gold": 0,
+      "Damage": 10,
+      "Defense": 9,
+      "CriticalRate": 1,
+      "Inventory": null
     },
     {
-      "primeKey": 1,
-      "name": "Mike",
-      "jobClass": 1,
-      "level": 1,
-      "exp": 0,
-      "gold": 0,
-      "damage": 8,
-      "defence": 8,
-      "criticalRate": 4,
-      "inventory": null
+      "PrimeKey": "Mike",
+      "Name": "Mike",
+      "JobClass": 1,
+      "Level": 1,
+      "Exp": 0,
+      "Gold": 0,
+      "Damage": 8,
+      "Defense": 8,
+      "CriticalRate": 4,
+      "Inventory": null
     },
     {
-      "primeKey": 2,
-      "name": "Godic",
-      "jobClass": 2,
-      "level": 1,
-      "exp": 0,
-      "gold": 0,
-      "damage": 6,
-      "defence": 12,
-      "criticalRate": 2,
-      "inventory": null
+      "PrimeKey": "Godic",
+      "Name": "Godic",
+      "JobClass": 2,
+      "Level": 1,
+      "Exp": 0,
+      "Gold": 0,
+      "Damage": 6,
+      "Defense": 12,
+      "CriticalRate": 2,
+      "Inventory": null
     }
   ]
 }
