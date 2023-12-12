@@ -16,7 +16,7 @@ namespace _01.Scripts.Data
     {
         #region Property
 
-        public int PrimeKey
+        public string PrimeKey
         {
             get => _primeKey;
             set => _primeKey = value;
@@ -59,7 +59,7 @@ namespace _01.Scripts.Data
         }
 
         #endregion
-        private int _primeKey;
+        private string _primeKey;
         private Sprite _sprite;
         private string _name;
         private Itemtypes _type;
