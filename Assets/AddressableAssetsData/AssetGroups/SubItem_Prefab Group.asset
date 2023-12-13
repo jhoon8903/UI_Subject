@@ -24,7 +24,7 @@ MonoBehaviour:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8dfe322ddc90d4a24b195009ae1c6d77
-    m_Address: Assets/03.Resources/@UI_Prefabs/SubItem/StoreItem.prefab
+    m_Address: StoreItem.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad

@@ -1,5 +1,10 @@
+using System.Collections.Generic;
+using System.Linq;
+using _01.Scripts.Characters;
+using _01.Scripts.Data;
 using _01.Scripts.Managers;
 using _01.Scripts.UI.SubItem;
+using _01.Scripts.Utility;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -17,34 +22,33 @@ namespace _01.Scripts.UI.PopUp
             Content
         }
 
-        // protected override bool Initialized()
-        // {
-        //     if (!base.Initialized()) return false;
-        //     BindButton(typeof(Buttons));
-        //     GetButton((int)Buttons.ReturnBtn).gameObject.BindEvent(ClosePanel);
-        //     SetInventory();
-        //
-        // }
+        protected List<Dictionary<string, Inventory>> PlayerInventory;
+        private Player _player;
+        private void Start()
+        {
+            Initialized();
+        }
+
+        protected override bool Initialized()
+        {
+            if (!base.Initialized()) return false;
+            BindButton(typeof(Buttons)); 
+            BindObject(typeof(GameObjects));
+            GetButton((int)Buttons.ReturnBtn).gameObject.BindEvent(ClosePopUp);
+            _player = ServiceLocator.GetService<Player>();
+            SetInventory();
+            return true;
+        }
 
         private void SetInventory()
         {
-            foreach (string key in MainManager.DataManager.Items.Keys)
+            PlayerInventory = _player.Inventory;
+            foreach (var pairValue in PlayerInventory.SelectMany(inventory => inventory.Where(pairValue => pairValue.Value.IsHad)))
             {
+                if (!MainManager.DataManager.Items.TryGetValue(pairValue.Key, out var itemData)) continue;
                 ItemBox itemBox = MainManager.ResourceManager.InstantiatePrefab("ItemBox.prefab", GetObject((int)GameObjects.Content).transform).GetComponent<ItemBox>();
-
+                itemBox.ItemData = itemData;
             }
-        }
-
-        // private void SetupItem(string key)
-        // {
-        //     if (MainManager.DataManager.Character)
-        //     {
-        //
-        //     }
-        // }
-
-        private void ClosePanel(PointerEventData obj)
-        {
         }
     }
 }

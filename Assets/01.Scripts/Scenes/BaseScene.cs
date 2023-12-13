@@ -1,10 +1,10 @@
-using System;
 using _01.Scripts.Managers;
 using _01.Scripts.UI.PopUp;
 using _01.Scripts.Utility;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Object = UnityEngine.Object;
+using System.Collections;
 
 namespace _01.Scripts.Scenes
 {
@@ -20,9 +20,10 @@ namespace _01.Scripts.Scenes
             LoadAddressable();
         }
 
-        protected virtual void LoadAddressable()
+        private void LoadAddressable()
         {
             MainManager = ServiceLocator.GetService<MainManager>();
+            
             if (MainManager.ResourceManager.Loaded)
             {
                 Initialize();
@@ -31,17 +32,26 @@ namespace _01.Scripts.Scenes
             {
                 MainManager.ResourceManager.LoadAllAsync<Object>("PreLoad", (key, count, totalCount) =>
                 {
-                    Debug.Log($"{key} Load ({count} / {totalCount})");
-                    _loading.Count = count;
-                    _loading.MaxCount = totalCount;
-                    _loading.Loading(key);
-
-                    if (count < totalCount) return;
-                    MainManager.ResourceManager.Loaded = true;
-                    
-                    Initialize();
+                    StartCoroutine(UpdateLoadingUI(key, count, totalCount));
                 });
             }
+        }
+
+        private IEnumerator UpdateLoadingUI(string key, int count, int totalCount)
+        {
+            // UI 업데이트 로직
+            _loading.Count = count;
+            _loading.MaxCount = totalCount;
+            _loading.Loading(key);
+            Debug.Log($"{key} Load ({count} / {totalCount})");
+
+            // 0.1초 대기
+            yield return new WaitForSeconds(0.1f);
+
+            // 모든 에셋이 로드되면 초기화 호출
+            if (count < totalCount) yield break;
+            MainManager.ResourceManager.Loaded = true;
+            Initialize();
         }
 
         protected virtual bool Initialize()

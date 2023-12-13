@@ -18,157 +18,157 @@ MonoBehaviour:
   m_GUID: 0f3406d6dc05347ac8232894db0e4cf4
   m_SerializeEntries:
   - m_GUID: deb413cebdc864517b43b7beaa19d2a5
-    m_Address: Cloth01.sprite
+    m_Address: Cloth01.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d7a1a0aeecfbf49a2af4eb4ac19f90e3
-    m_Address: Cloth02.sprite
+    m_Address: Cloth02.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a05ebb241a0b14dec9a0d4bdd31301a3
-    m_Address: Cloth03.sprite
+    m_Address: Cloth03.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: da6895bd4082d441cbe5911031d0f43b
-    m_Address: Cloth04.sprite
+    m_Address: Cloth04.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7a18280193ba94224b27d6dedc9fa979
-    m_Address: Cloth05.sprite
+    m_Address: Cloth05.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e58444fb66d4648758da6a91ccbd3fe9
-    m_Address: Cloth06.sprite
+    m_Address: Cloth06.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 06c8d7c33ccef4cf39e374e33835e970
-    m_Address: Cloth07.sprite
+    m_Address: Cloth07.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8e0564280a4e94fe9ab922abf53543db
-    m_Address: Cloth08.sprite
+    m_Address: Cloth08.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 02da32778b3134ca7bdaa2b2d96911a5
-    m_Address: Cloth09.sprite
+    m_Address: Cloth09.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4f75ae73445284b5393c219fadb2dc65
-    m_Address: Cloth10.sprite
+    m_Address: Cloth10.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9dc3a3dbad727427780451ecc1627898
-    m_Address: Cloth11.sprite
+    m_Address: Cloth11.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 32122f87f9a7545c38ded467d0b41b13
-    m_Address: Cloth12.sprite
+    m_Address: Cloth12.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bb53a852f02d94491bd324185eaa77ea
-    m_Address: Cloth13.sprite
+    m_Address: Cloth13.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0aba1c3d9e6814991b93ff6a9540656b
-    m_Address: Cloth14.sprite
+    m_Address: Cloth14.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d1bc3ad920b0d41c5b5d8aff14f0dee9
-    m_Address: Cloth15.sprite
+    m_Address: Cloth15.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 20826ee5fbaa8418b93e6ece5f885b00
-    m_Address: Cloth16.sprite
+    m_Address: Cloth16.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d6b31bb9a1263457d996d905401b4217
-    m_Address: Cloth17.sprite
+    m_Address: Cloth17.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: dacd5b318f89e48bd97879d660685938
-    m_Address: Cloth18.sprite
+    m_Address: Cloth18.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 119a166f9da694dd4834e556f1c65f76
-    m_Address: Cloth19.sprite
+    m_Address: Cloth19.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 873ea45df537d45c48be3a02632e6f2e
-    m_Address: Cloth20.sprite
+    m_Address: Cloth20.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7e3224cd6fc3145d691ec45fdc8265fb
-    m_Address: Cloth21.sprite
+    m_Address: Cloth21.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 91837876145ff43d4a8e8f457b708199
-    m_Address: Cloth22.sprite
+    m_Address: Cloth22.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ad98517497e964b00add5977d2257a7a
-    m_Address: Cloth23.sprite
+    m_Address: Cloth23.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5ed80003cb7f545ab87b7c0b79ad2eed
-    m_Address: Cloth24.sprite
+    m_Address: Cloth24.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 42d85c8a42d3e427c972183183efd4f9
-    m_Address: Cloth25.sprite
+    m_Address: Cloth25.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d0fda40ef2eb1ab4f945e56bc4020f8b
-    m_Address: Cloth26.sprite
+    m_Address: Cloth26.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad

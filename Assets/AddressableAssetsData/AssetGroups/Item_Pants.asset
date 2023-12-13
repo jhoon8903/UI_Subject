@@ -18,103 +18,103 @@ MonoBehaviour:
   m_GUID: 70e8f85a814c94bb083ca33f8ef8aa3e
   m_SerializeEntries:
   - m_GUID: f71ba98f5e5894a9e9a109dc34922832
-    m_Address: Pants17.sprite
+    m_Address: Pants17.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 37e94653dd0034cee98125a6d5d6a2bf
-    m_Address: Pants16.sprite
+    m_Address: Pants16.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 39b5df11e0c48498c8743958d95396b7
-    m_Address: Pants15.sprite
+    m_Address: Pants15.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e12314fa70008464fa8d15d08fffd50a
-    m_Address: Pants14.sprite
+    m_Address: Pants14.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2367f636a80334d659849604908ab07b
-    m_Address: Pants13.sprite
+    m_Address: Pants13.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ac8f08f2a7884907b931477b1694539
-    m_Address: Pants12.sprite
+    m_Address: Pants12.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c8b0805f6931f4f7f90aea6bd3b08f57
-    m_Address: Pants11.sprite
+    m_Address: Pants11.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e7d2d469a9a9548bcb468fc5ff5792c1
-    m_Address: Pants10.sprite
+    m_Address: Pants10.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9f70f3b311741431cbbda23a4cfbc285
-    m_Address: Pants09.sprite
+    m_Address: Pants09.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c9a0377619143454f813b786ccb2467c
-    m_Address: Pants08.sprite
+    m_Address: Pants08.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 75c6efef2560d4417bd40473e15859cb
-    m_Address: Pants07.sprite
+    m_Address: Pants07.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a4b630b105c514614b9ba9d9937fef5d
-    m_Address: Pants06.sprite
+    m_Address: Pants06.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e17d600fcd74948bd8547a87f8f5839a
-    m_Address: Pants05.sprite
+    m_Address: Pants05.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c8a4db297c0ce4a38abd3c1d2da37e98
-    m_Address: Pants04.sprite
+    m_Address: Pants04.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ed0836d2b0b084f2a842be7fa476e1e5
-    m_Address: Pants03.sprite
+    m_Address: Pants03.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4f4d6264408da453a8511876ebec8ae3
-    m_Address: Pants02.sprite
+    m_Address: Pants02.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 50595133ffa7f47f984a134594aedcab
-    m_Address: Pants01.sprite
+    m_Address: Pants01.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
