@@ -25,7 +25,6 @@ namespace _01.Scripts.UI.SubItem
         private string _itemPrimeKey;
         private ItemData _itemData;
 
-
         private enum Images
         {
             ItemSprite
@@ -63,13 +62,15 @@ namespace _01.Scripts.UI.SubItem
         {
             var inventory = Player.Inventory.FirstOrDefault(dict => dict.ContainsKey(_itemPrimeKey));
            
-            if (inventory != null && inventory[_itemPrimeKey].IsHad)
+            if (inventory != null && inventory[_itemPrimeKey].IsEquipment)
             {
                 OnUnEquipPopupOpen();
+                Debug.Log("1");
             }
             else
             {
                 OnEquipPopupOpen();
+                Debug.Log("2");
             }
         }
 

@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "4fba2576b90ad632",
+    "type": "split",
+    "children": [
+      {
+        "id": "90743b2aeac7141e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af819e2ff5d8cad7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc3670eb1d9c05e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReadMe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "efc619bbb4b4e2fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4b2a53ff397ce1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d555095f997bc2d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "50d2ef0ec954ec05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1f086abba4f2f45",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39ea1cf40d69de44",
+    "type": "split",
+    "children": [
+      {
+        "id": "453b9d35cba44afc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c2aeb5c7ed0e6c5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ReadMe.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02966fe38aa34ada",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ReadMe.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "939fae70a18b2ef4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e7d92fc23bf32656",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ReadMe.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "bc3670eb1d9c05e3",
+  "lastOpenFiles": [
+    "Temp/ADB-Refresha3f94b52ab7444739962a1f379114b38",
+    "Temp/ADB-Refresh0058ba6836a234bd38a31ecf2df08525",
+    "Temp/ADB-Refresh72b9f41f751a943959025c09949e108a",
+    "Temp/ADB-Refreshd61cb8fe85323402fbad7b085dbe3861",
+    "Screenshot 2023-12-13 at 10.30.16 PM.jpg",
+    "ReadMe.md",
+    "Screenshot 2023-12-13 at 10.30.16 PM 1.jpg",
+    "Temp/ADB-Refresha840bc6b8bd7242aa88442eebb326dfb",
+    "Temp/ADB-Refresh219f2fc78900040c28c6577795e2b34d",
+    "Temp/ADB-Refreshb4a3126e591a34d0db9a102646af35fb",
+    "Library/ProtocolInstance.json",
+    "Temp/ADB-Refreshbf77c9f1b547b4f4693d3fe24ef01036",
+    "Temp/ADB-Refresh5de77e3b27aa84dac8a8ca8792683465",
+    "Library/Bee/TundraBuildState.state"
+  ]
+}

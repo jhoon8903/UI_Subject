@@ -5,8 +5,6 @@ using _01.Scripts.Data;
 using _01.Scripts.Managers;
 using _01.Scripts.UI.SubItem;
 using _01.Scripts.Utility;
-using UnityEngine;
-using UnityEngine.EventSystems;
 
 namespace _01.Scripts.UI.PopUp
 {
