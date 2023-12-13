@@ -1,13 +1,13 @@
 PrimeKey,Type,Attribute,Price,EQPosition,DESC
-Armor01,Armor,11,100,[BodyArmor],초보자 갑옷
-Armor02,Armor,20,200,[BodyArmor],중급자 갑옷
-Helmet01,Helmet,10,100,[Head],초금자 헬맷
-Helmet02,Helmet,20,110,[Head],중급자 헬멧
-Shield01,Shield,15,100,[LeftShield/RightShield],초급자 방패
-Shield,Shield,30,500,[LeftShield/RightShield],중급자 방패
-Weapon01,Weapons,10,1000,[LeftWeapon/RightWeapon],초급자용 무기
-Weapon02,Weapons,20,2000,[LeftWeapon/RightWeapon],중급자용 무기
-Back01,Back,5,1000,[Back],초급자 망토
-Baack02,Back,10,2000,[Back],중급자 망토
-Cloth01,Cloth,5,500,[ClothBody],초급자 상의
-Cloth02,Cloth,10,1000,[ClothBody],중급자 상의
+Armor01,Armor,11,100,[BodyArmor],초보자 갑옷,Defense,
+Armor02,Armor,20,200,[BodyArmor],중급자 갑옷,Defense,
+Helmet01,Helmet,10,100,[Head],초금자 헬맷,Defense,
+Helmet02,Helmet,20,110,[Head],중급자 헬멧,Defense,
+Shield01,Shield,15,100,[LeftShield/RightShield],초급자 방패,Defense,
+Shield,Shield,30,500,[LeftShield/RightShield],중급자 방패,Defense,
+Weapon01,Weapons,10,1000,[LeftWeapon/RightWeapon],초급자용 무기,Damage,
+Weapon02,Weapons,20,2000,[LeftWeapon/RightWeapon],중급자용 무기,Damage,
+Back01,Back,5,1000,[Back],초급자 망토,Critical,
+Baack02,Back,10,2000,[Back],중급자 망토,Critical,
+Cloth01,Cloth,5,500,[ClothBody],초급자 상의,HP,
+Cloth02,Cloth,10,1000,[ClothBody],중급자 상의,HP,

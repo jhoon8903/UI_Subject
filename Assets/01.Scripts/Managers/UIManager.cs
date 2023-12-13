@@ -49,11 +49,11 @@ namespace _01.Scripts.Managers
 
         public void ClosePopUp()
         {
+            Debug.Log("닫기");
             if (_popupStack.Count == 0) return;
             UIPopup popup = _popupStack.Pop();
             _mainManager.ResourceManager.Destroy(popup.gameObject);
             _sortOrderNumber--;
-            RefreshTimeScale();
         }
 
         public void CloseAllPopup()

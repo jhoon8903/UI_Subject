@@ -10,6 +10,7 @@ namespace _01.Scripts.Managers
     public static class EventManager
     {
         public static event Func<GameObject, Transform, GameObject> OnInstantiatePrefab;
+        public static event Action OnResoruceChanged;
         public static GameObject OnInstantiate(GameObject prefab, Transform parent)
         {
            return OnInstantiatePrefab?.Invoke(prefab, parent);
@@ -57,6 +58,11 @@ namespace _01.Scripts.Managers
                     Debug.Log($"Known Event Type : {type}");
                     break;
             }
+        }
+
+        public static void RefreshEvent()
+        {
+            OnResoruceChanged?.Invoke();
         }
     }
 }

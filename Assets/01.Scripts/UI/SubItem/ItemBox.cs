@@ -22,6 +22,15 @@ namespace _01.Scripts.UI.SubItem
             }
         }
 
+        public bool Equipment
+        {
+            get
+            {
+                var inventory = Player.Inventory.FirstOrDefault(dict => dict.ContainsKey(_itemPrimeKey));
+                return inventory != null && inventory[_itemPrimeKey].IsEquipment;
+            }
+        }
+
         private string _itemPrimeKey;
         private ItemData _itemData;
 
@@ -54,9 +63,13 @@ namespace _01.Scripts.UI.SubItem
             BindObject(typeof(GameObjects));
             GetImage((int)Images.ItemSprite).sprite = MainManager.ResourceManager.Load<Sprite>($"{ItemData.PrimeKey}.sprite");
             GetButton((int)Buttons.ItemBox).gameObject.BindEvent(SelectItem);
-            GetObject((int)GameObjects.EquipStatus).gameObject.SetActive(false);
+            GetObject((int)GameObjects.EquipStatus).gameObject.SetActive(Equipment);
+            EventManager.OnResoruceChanged -= OnEquipmentIcon;
+            EventManager.OnResoruceChanged += OnEquipmentIcon;
+            OnEquipmentIcon();
             return true;
         }
+
 
         private void SelectItem(PointerEventData obj)
         {
@@ -65,23 +78,29 @@ namespace _01.Scripts.UI.SubItem
             if (inventory != null && inventory[_itemPrimeKey].IsEquipment)
             {
                 OnUnEquipPopupOpen();
-                Debug.Log("1");
             }
             else
             {
                 OnEquipPopupOpen();
-                Debug.Log("2");
             }
+        }
+
+        private void OnEquipmentIcon()
+        {
+            Initialized();
+            Debug.Log(Equipment);
         }
 
         private void OnEquipPopupOpen()
         {
-            MainManager.UIManager.OpenPopUp<Equipment_Popup>();
+            var popup = MainManager.UIManager.OpenPopUp<Equipment_Popup>();
+            popup.ItemData = _itemData;
         }
         
         private void OnUnEquipPopupOpen()
         {
-            MainManager.UIManager.OpenPopUp<UnEquipment_Popup>();
+            var popup = MainManager.UIManager.OpenPopUp<UnEquipment_Popup>();
+            popup.ItemData = _itemData;
         }
     }
 }

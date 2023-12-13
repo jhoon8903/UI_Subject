@@ -44,6 +44,7 @@ namespace _01.Scripts.Data
         public Itemtypes Type { get; set; }
         public EquipPosition[] EquipPositions { get; set; }
         public int Attribute { get; set; }
+        public string AttributeType { get; set; }
         public string Desc { get; set; }
         public int Price { get; set; }
         #endregion

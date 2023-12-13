@@ -108,7 +108,7 @@ namespace _01.Scripts.Editor
         private static void ItemData(string[] row, ItemDataLoader loader)
         { 
             // Splitting the EquipPositions string and converting each part to an enum
-            var equipPosStrings = row[4].Trim(new char[] { '[', ']' }).Split('/');
+            var equipPosStrings = row[4].Trim('[', ']').Split('/');
             var equipPosEnums = equipPosStrings.Select(s => (EquipPosition)Enum.Parse(typeof(EquipPosition), s)).ToArray();
 
             loader.items.Add(new ItemData
@@ -117,7 +117,9 @@ namespace _01.Scripts.Editor
                 Type = (Itemtypes)Enum.Parse(typeof(Itemtypes), row[1]),
                 Attribute = int.Parse(row[2]),
                 Price = int.Parse(row[3]),
-                EquipPositions = equipPosEnums // Assigning the converted enum array
+                EquipPositions = equipPosEnums,
+                Desc =  row[5],
+                AttributeType = row[6],
             });
         }
         #endregion
