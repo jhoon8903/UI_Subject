@@ -16,9 +16,11 @@ namespace _01.Scripts.Managers
 
         public void Initialize()
         {
+            Debug.Log("리소스 매니저 초기화");
             _mainManager = ServiceLocator.GetService<MainManager>();
         }
 
+        #region Addressables
         private void HandleCallback<T>(string key, AsyncOperationHandle<T> handle, Action<T> cb) where T : Object
         {
             handle.Completed += operationHandle =>
@@ -30,19 +32,16 @@ namespace _01.Scripts.Managers
 
         public void LoadAsync<T>(string key, Action<T> cb = null) where T : Object
         {
+            string loadKey = key;
             if (_resources.TryGetValue(key, out Object resource))
             {
                 cb?.Invoke(resource as T);
                 return;
             }
-            string loadKey = key;
+            
             if (key.Contains(".sprite"))
             {
                 loadKey = $"{key}[{key.Replace(".sprite", "")}]";
-            }
-
-            if (key.Contains(".sprite"))
-            {
                 AsyncOperationHandle<Sprite> handle = Addressables.LoadAssetAsync<Sprite>(loadKey);
                 HandleCallback(key, handle, cb as Action<Sprite>);
             }
@@ -71,16 +70,19 @@ namespace _01.Scripts.Managers
             };
             Loaded = true;
         }
+        
+        #endregion
 
         public T Load<T>(string key) where T : Object
         {
-            if (!_resources.TryGetValue(key, out Object resource)) return null;
+            Debug.Log($"Load Key : {key}");
+            if (!_resources.TryGetValue(key, out var resource)) return null;
             return resource as T;
         }
 
         public GameObject InstantiatePrefab(string key, Transform parent = null)
-        {
-            GameObject prefab = Load<GameObject>(key);
+        { 
+            GameObject prefab = Load<GameObject>(key); 
             if (prefab == null)
             {
                 Debug.LogError($"[ResourceManager] Instantiate({key}): Failed to load prefab.");
@@ -97,6 +99,17 @@ namespace _01.Scripts.Managers
         {
             if (popupGameObject == null) return;
             Object.Destroy(popupGameObject);
+        }
+
+        private void Unload<T>(string key) where T : Object
+        {
+            if (_resources.TryGetValue(key, out var resource))
+            {
+                Addressables.Release(resource);
+                _resources.Remove(key);
+            }
+            else
+                Debug.LogError($"Resource Unload {key}");
         }
     }
 }

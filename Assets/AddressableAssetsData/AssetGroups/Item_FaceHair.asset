@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Item_FaceHair
+  m_EditorClassIdentifier: 
+  m_GroupName: Item_FaceHair
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4e4ff564ae9194891ad8ccd64e952176
+  m_SerializeEntries:
+  - m_GUID: c881fe1f539449842b243ff9a21298eb
+    m_Address: FaceHair01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf396ee22a706a24dba8f20538815062
+    m_Address: FaceHair02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37f88f4c290f444ff8434e7b094bee9e
+    m_Address: FaceHair03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d7b37f79491e724d99cab75dfafabdd
+    m_Address: FaceHair04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3fa5454509bfe9428ccc7066d86d0f3
+    m_Address: FaceHair05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f72cf5cb9bab9dd4e8dfb6bc75f8f1d1
+    m_Address: FaceHair06.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49bc72556f4e4c342a624e5bfa982742
+    m_Address: FaceHair07.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 78394507884854433882b89a61e85146, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ab1238fc19479482087bf12c1048c402, type: 2}
+    - {fileID: 11400000, guid: 04cc563e3f7d54f15b538ed53e00074c, type: 2}

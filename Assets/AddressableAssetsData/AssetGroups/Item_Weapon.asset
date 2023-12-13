@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Item_Weapon
+  m_EditorClassIdentifier: 
+  m_GroupName: Item_Weapon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6035b526eb1d247e1ba71d01ba9f57e2
+  m_SerializeEntries:
+  - m_GUID: f17058e2bd3c44745bd37eb71c41adf1
+    m_Address: Weapon01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be8252f11d666d54aa6bd41959de2a8c
+    m_Address: Weapon02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59a7f0c391e16bb4d98b4be022f6d461
+    m_Address: Weapon03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8a87b07b40dd90488025a3ddc29f46f
+    m_Address: Weapon04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8a3f9debf9a740ebba84d95c6700721
+    m_Address: Weapon05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc54460ac3fe5478f9cacb9b1cbdcc69
+    m_Address: Weapon06.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 920510d3994f1469f8f88fd76b9f7277
+    m_Address: Weapon07.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 865a7131292ca4737a2713362d123c94
+    m_Address: Weapon08.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffef52aa2bdb04c1394af5d4599ed210
+    m_Address: Weapon09.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86c53b704f9924b74b39f01a089056b2
+    m_Address: Weapon10.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd6402512f85d4ca2a6e3b4944b5e6b5
+    m_Address: Weapon11.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27428f826bad840f9bdbc88d5dcbfa6c
+    m_Address: Weapon12.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 529a1a0c4dde84b71a261ee01ec0e428
+    m_Address: Weapon13.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89a79317a445e4ed8a8e70115f8a1cc0
+    m_Address: Weapon14.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a65be32c958034377978891516dc581d
+    m_Address: Weapon15.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b703d7727b08947219074023baf91225
+    m_Address: Weapon16.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83ce399493f9f4771b62359dc94f5010
+    m_Address: Weapon17.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1242d9257f164482a9504def032942ed
+    m_Address: Weapon18.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb71197c3cd5f4dc09e7b129399d0048
+    m_Address: Weapon19.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9e76854390974b5aa6d9ba973659387
+    m_Address: Weapon20.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fce61441a9114f3ba09e2c496de7ca8
+    m_Address: Weapon21.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ceba41c6fb6d463ab9ecab86706972e
+    m_Address: Weapon22.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69a11d8cb1f7e46718b2f15d0878ae0e
+    m_Address: Weapon23.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d146494dac5544c8bbfd426f29a9110
+    m_Address: Weapon24.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01c22b6d497e0484db647e3d384dfe67
+    m_Address: Weapon25.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcd3983f703124c5f9580c4d3b5a5823
+    m_Address: Weapon26.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d2e32343359643008ec8b92017bbf89
+    m_Address: Weapon27.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4c07de1d80de4718b58db6470c48501
+    m_Address: Weapon28.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df96032537d4c482e9b20c674c73dc45
+    m_Address: Weapon29.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 400f84ca50ac94f20a75a7ecfbe2cfe8
+    m_Address: Weapon30.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d883a2fc76fd4137ad47f5150294d01
+    m_Address: Weapon31.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9cdd1844b02d4c81989b265d121a78a
+    m_Address: Weapon32.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9794293e4605a44d0826e3814ddc8431
+    m_Address: Weapon33.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1c6b014ee8384bde8873e80c5b3784c
+    m_Address: Weapon34.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30e47371660a44f038c174865e5af8d3
+    m_Address: Weapon35.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 78394507884854433882b89a61e85146, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6c6f9552b56954ac5b7ec76a1b98430b, type: 2}
+    - {fileID: 11400000, guid: b799cab341e0148a395437ffdf7a47b6, type: 2}

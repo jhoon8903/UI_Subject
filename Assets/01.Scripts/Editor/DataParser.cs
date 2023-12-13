@@ -37,6 +37,41 @@ namespace _01.Scripts.Editor
             File.WriteAllText($"{JsonFilePath}/{csvFileName}.json",jsonFile);
         }
 
+    //     interface DataProcessor
+    //      {
+    //         void processData(Row row, DataLoader loader);
+    //     }
+                
+    //     class ItemDataProcessor implements DataProcessor
+    //      {
+    //         @Override
+    //         public void processData(Row row, DataLoader loader)
+    //          {
+    //              // ItemData 처리 로직
+    //          }
+    //      }
+    //      class JobDataProcessor implements DataProcessor
+    //      {
+    //          @Override
+    //          public void processData(Row row, DataLoader loader)
+    //          {
+    //              // JobData 처리 로직
+    //          }
+    //      }
+
+    // Map<String, DataProcessor> processors = new HashMap<>();
+
+    // processors.put("itemData", new ItemDataProcessor());
+
+    // processors.put("JobData", new JobDataProcessor());
+
+    // DataProcessor processor = processors.get(csvFileName);
+
+    // if (processor != null)
+    // {
+    //     processor.processData(row, loader);
+    // }
+
         private static void MappingData<T>(string csvFileName, string[] row, T loader) where T : new()
         {
             switch (csvFileName)

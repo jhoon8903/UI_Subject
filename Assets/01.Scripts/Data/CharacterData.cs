@@ -16,7 +16,7 @@ namespace _01.Scripts.Data
         public int Damage { get => _damage; set => _damage = value; }
         public int Defense { get => _defense; set => _defense = value; }
         public int CriticalRate { get => _criticalRate; set => _criticalRate = value; }
-        public Dictionary<int, Inventory> Inventory { get => _inventory; set => _inventory = value; }
+        public Dictionary<string, Inventory> Inventory { get => _inventory; set => _inventory = value; }
         #endregion
 
         #region Field
@@ -30,7 +30,7 @@ namespace _01.Scripts.Data
         private int _damage;
         private int _defense;
         private int _criticalRate;
-        private Dictionary<int, Inventory> _inventory;
+        private Dictionary<string, Inventory> _inventory;
         #endregion
     }
 }

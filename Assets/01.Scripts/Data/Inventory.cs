@@ -7,7 +7,6 @@ namespace _01.Scripts.Data
     {
         private bool _isEquipment;
         private bool _isHad;
-
         public bool IsEquipment
         {
             get => _isEquipment; 

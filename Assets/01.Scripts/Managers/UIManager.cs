@@ -15,9 +15,11 @@ namespace _01.Scripts.Managers
 
         public void Initialize()
         {
+            Debug.Log("UI 매니저 초기화");
             _mainManager = ServiceLocator.GetService<MainManager>();
         }
-        public GameObject Root
+
+        private GameObject Root
         {
             get
             {
@@ -41,7 +43,7 @@ namespace _01.Scripts.Managers
             T popup = UtilityToGetAddComponent.GetOrAddComponent<T>(gameObject);
             _popupStack.Push(popup);
             gameObject.transform.SetParent(Root.transform);
-            RefreshTimeScale();
+            // RefreshTimeScale();
             return popup;
         }
 
