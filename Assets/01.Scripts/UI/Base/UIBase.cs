@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using _01.Scripts.Characters;
 using _01.Scripts.Managers;
 using _01.Scripts.Utility;
 using TMPro;
@@ -14,6 +15,7 @@ namespace _01.Scripts.UI.Base
         private bool _initialized;
         protected Dictionary<Type, Object[]> UIObjects = new();
         protected MainManager MainManager;
+        protected event Action OnEquipChanged; 
         protected virtual bool Initialized()
         {
             if (_initialized) return false;
@@ -59,5 +61,10 @@ namespace _01.Scripts.UI.Base
             return objects[objectIndex] as T;
         }
         #endregion
+
+        protected virtual void OnOnEquipChanged()
+        {
+            OnEquipChanged?.Invoke();
+        }
     }                                                              
 }

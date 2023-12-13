@@ -16,7 +16,31 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 7603578122f414b8d998d16c921c75ea
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 169d45648e00348038299fc345aa6b4f
+    m_Address: Icon_Sword.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af046ff5a9b3d44b79be18e97354c5c4
+    m_Address: RuneIcon3_Buff.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9052f7a0bc8ae4a348c9da24ce2c1c38
+    m_Address: RuneIcon2_Ball_Health.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b291757309a764157890fee32cb298cd
+    m_Address: RuneIcon4_Critical_Damage.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 78394507884854433882b89a61e85146, type: 2}
   m_SchemaSet:

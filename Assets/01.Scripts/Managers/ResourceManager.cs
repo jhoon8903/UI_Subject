@@ -30,7 +30,22 @@ namespace _01.Scripts.Managers
             };
         }
 
-        public void LoadAsync<T>(string key, Action<T> cb = null) where T : Object
+        private void HandleCallback<T>(string key, AsyncOperationHandle<IList<T>> handle, Action<IList<T>> cb) where T : Object
+        {
+            handle.Completed += operationHandle =>
+            {
+                IList<T> resultList = operationHandle.Result;
+                // 리스트의 각 아이템을 _resources에 추가합니다.
+                for (int i = 0; i < resultList.Count; i++)
+                {
+                    string resourceKey = $"{key}[{i}]"; // 리스트 아이템에 대한 고유 키
+                    _resources.Add(resourceKey, resultList[i]);
+                }
+                cb?.Invoke(resultList);
+            };
+        }
+
+        private void LoadAsync<T>(string key, Action<T> cb = null) where T : Object
         {
             string loadKey = key;
             if (_resources.TryGetValue(key, out Object resource))
@@ -38,15 +53,21 @@ namespace _01.Scripts.Managers
                 cb?.Invoke(resource as T);
                 return;
             }
-            
-            if (key.Contains(".sprite"))
+
+            if (key.Contains(".multiSprite"))
             {
-                loadKey = $"{key}[{key.Replace(".sprite", "")}]";
+                    AsyncOperationHandle<IList<Sprite>>handle = Addressables.LoadAssetAsync<IList<Sprite>>(loadKey);
+                    HandleCallback<Sprite>(key, handle, objs => cb?.Invoke(objs as T));
+            }
+            else if (key.Contains(".sprite"))
+            {
+                // 싱글 스프라이트 처리
                 AsyncOperationHandle<Sprite> handle = Addressables.LoadAssetAsync<Sprite>(loadKey);
                 HandleCallback(key, handle, cb as Action<Sprite>);
             }
             else
             {
+                // 일반 에셋 처리
                 AsyncOperationHandle<T> handle = Addressables.LoadAssetAsync<T>(loadKey);
                 HandleCallback(key, handle, cb);
             }
@@ -75,13 +96,14 @@ namespace _01.Scripts.Managers
 
         public T Load<T>(string key) where T : Object
         {
-            Debug.Log($"Load Key : {key}");
             if (!_resources.TryGetValue(key, out var resource)) return null;
+            Debug.Log($"RESOURCES : {resource.GetType()}");
             return resource as T;
         }
 
         public GameObject InstantiatePrefab(string key, Transform parent = null)
         { 
+            Debug.Log(key);
             GameObject prefab = Load<GameObject>(key); 
             if (prefab == null)
             {

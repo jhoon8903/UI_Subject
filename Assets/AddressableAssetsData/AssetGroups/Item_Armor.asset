@@ -18,121 +18,121 @@ MonoBehaviour:
   m_GUID: 5706f43aa77de4f078df64100b8e7455
   m_SerializeEntries:
   - m_GUID: 1810f09d324df46289d58e432045bcd1
-    m_Address: Armor01.sprite
+    m_Address: Armor01.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6dc30e5993cb04a47a6845283a352d2e
-    m_Address: Armor02.sprite
+    m_Address: Armor02.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fbddd4306af2b47458c43097d5b91f87
-    m_Address: Armor03.sprite
+    m_Address: Armor03.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1416614edddf54e2bb98c61ab32dc586
-    m_Address: Armor04.sprite
+    m_Address: Armor04.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 304386aad927e4d3281f05c505bb4f54
-    m_Address: Armor05.sprite
+    m_Address: Armor05.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ada8c9e757cf49d8a0418a5be86796a
-    m_Address: Armor06.sprite
+    m_Address: Armor06.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7f34c450245f5488bac2d54b5fbbae81
-    m_Address: Armor07.sprite
+    m_Address: Armor07.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 61f60bf66a0684be3b448f6e237a3f12
-    m_Address: Armor08.sprite
+    m_Address: Armor08.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 49278b333c23b464fbe87f4618639aa0
-    m_Address: Armor09.sprite
+    m_Address: Armor09.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7c5a293137726445abd2b50a8922119b
-    m_Address: Armor10.sprite
+    m_Address: Armor10.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ba3b6e1f45dc4bc994e67fb1591c169
-    m_Address: Armor11.sprite
+    m_Address: Armor11.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a0f407e4c5e1341129d8309f3c87e53c
-    m_Address: Armor12.sprite
+    m_Address: Armor12.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 303412e2e31364d52aa2381383ffc211
-    m_Address: Armor13.sprite
+    m_Address: Armor13.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7837b3161c8b7477e9711cb259036797
-    m_Address: Armor14.sprite
+    m_Address: Armor14.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cdf6ea08334f54b81b8e1bfb81a896c7
-    m_Address: Armor15.sprite
+    m_Address: Armor15.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f5bfb7e5e8f8d482a8209d1f2f91e467
-    m_Address: Armor16.sprite
+    m_Address: Armor16.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e0f672d1760234cecaebc26bc4c22b6e
-    m_Address: Armor17.sprite
+    m_Address: Armor17.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: b4bf5105033e04d45baa948da8b503b0
-    m_Address: Armor18.sprite
+    m_Address: Armor18.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: fa1984f46ef804b5b814b834d6b8c754
-    m_Address: Armor19.sprite
+    m_Address: Armor19.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8e2ee760cea01a640bf6b790a349b6be
-    m_Address: Armor20.sprite
+    m_Address: Armor20.multiSprite
     m_ReadOnly: 0
     m_SerializedLabels:
     - PreLoad

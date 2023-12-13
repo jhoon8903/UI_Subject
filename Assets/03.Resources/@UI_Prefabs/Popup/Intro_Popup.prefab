@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 3484589213307486265}
   - component: {fileID: 2467641062687655801}
   - component: {fileID: 1692821117656836681}
+  - component: {fileID: 3883633112428561402}
   m_Layer: 5
   m_Name: Intro_Popup
   m_TagString: Untagged
@@ -168,7 +169,7 @@ RectTransform:
   m_Children:
   - {fileID: 2789465828474195188}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -238,6 +239,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3883633112428561402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769747957465761902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffa67507e7e448d28e28b577fbc2ac7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingSlider: {fileID: 6593144833659577285}
+  loadingText: {fileID: 1148146035911922489}
 --- !u!1 &906716073292071184
 GameObject:
   m_ObjectHideFlags: 0

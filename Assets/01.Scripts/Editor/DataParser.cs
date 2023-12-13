@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 using _01.Scripts.Data;
 using _01.Scripts.Loader;
 using Newtonsoft.Json;
@@ -106,15 +107,19 @@ namespace _01.Scripts.Editor
 
         private static void ItemData(string[] row, ItemDataLoader loader)
         { 
+            // Splitting the EquipPositions string and converting each part to an enum
+            var equipPosStrings = row[4].Trim(new char[] { '[', ']' }).Split('/');
+            var equipPosEnums = equipPosStrings.Select(s => (EquipPosition)Enum.Parse(typeof(EquipPosition), s)).ToArray();
+
             loader.items.Add(new ItemData
             {
                 PrimeKey = row[0],
-                Name = row[1],
-                Type = (Itemtypes)Enum.Parse(typeof(Itemtypes),row[2]),
-                Attribute = int.Parse(row[3]),
-                Price = int.Parse(row[4])
+                Type = (Itemtypes)Enum.Parse(typeof(Itemtypes), row[1]),
+                Attribute = int.Parse(row[2]),
+                Price = int.Parse(row[3]),
+                EquipPositions = equipPosEnums // Assigning the converted enum array
             });
-        } 
+        }
         #endregion
 
         #region CharacterData

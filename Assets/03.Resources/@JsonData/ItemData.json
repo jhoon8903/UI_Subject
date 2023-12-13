@@ -1,157 +1,140 @@
 {
   "items": [
     {
-      "PrimeKey": "Machete",
+      "PrimeKey": "Armor01",
       "Sprite": null,
-      "Name": "Machete",
-      "Type": 2,
-      "Attribute": 5,
+      "Type": 0,
+      "EquipPositions": [
+        2
+      ],
+      "Attribute": 11,
       "Desc": null,
-      "Price": 50
+      "Price": 100
     },
     {
-      "PrimeKey": "Lance",
+      "PrimeKey": "Armor02",
       "Sprite": null,
-      "Name": "Lance",
-      "Type": 2,
+      "Type": 0,
+      "EquipPositions": [
+        2
+      ],
+      "Attribute": 20,
+      "Desc": null,
+      "Price": 200
+    },
+    {
+      "PrimeKey": "Helmet01",
+      "Sprite": null,
+      "Type": 5,
+      "EquipPositions": [
+        3
+      ],
       "Attribute": 10,
       "Desc": null,
       "Price": 100
     },
     {
-      "PrimeKey": "Club",
+      "PrimeKey": "Helmet02",
       "Sprite": null,
-      "Name": "Club",
-      "Type": 2,
-      "Attribute": 4,
+      "Type": 5,
+      "EquipPositions": [
+        3
+      ],
+      "Attribute": 20,
       "Desc": null,
-      "Price": 40
+      "Price": 110
     },
     {
-      "PrimeKey": "Sword",
+      "PrimeKey": "Shield01",
       "Sprite": null,
-      "Name": "Sword",
-      "Type": 2,
-      "Attribute": 4,
+      "Type": 7,
+      "EquipPositions": [
+        8,
+        12
+      ],
+      "Attribute": 15,
       "Desc": null,
-      "Price": 40
-    },
-    {
-      "PrimeKey": "Hook",
-      "Sprite": null,
-      "Name": "Hook",
-      "Type": 2,
-      "Attribute": 3,
-      "Desc": null,
-      "Price": 30
+      "Price": 100
     },
     {
       "PrimeKey": "Shield",
       "Sprite": null,
-      "Name": "Shield",
-      "Type": 3,
-      "Attribute": 15,
+      "Type": 7,
+      "EquipPositions": [
+        8,
+        12
+      ],
+      "Attribute": 30,
       "Desc": null,
-      "Price": 150
+      "Price": 500
     },
     {
-      "PrimeKey": "PirateHat",
+      "PrimeKey": "Weapon01",
       "Sprite": null,
-      "Name": "PirateHat",
-      "Type": 0,
-      "Attribute": 3,
+      "Type": 8,
+      "EquipPositions": [
+        7,
+        11
+      ],
+      "Attribute": 10,
       "Desc": null,
-      "Price": 30
+      "Price": 1000
     },
     {
-      "PrimeKey": "FeatherHat",
+      "PrimeKey": "Weapon02",
       "Sprite": null,
-      "Name": "FeatherHat",
-      "Type": 0,
-      "Attribute": 3,
+      "Type": 8,
+      "EquipPositions": [
+        7,
+        11
+      ],
+      "Attribute": 20,
       "Desc": null,
-      "Price": 30
+      "Price": 2000
     },
     {
-      "PrimeKey": "EyePatch",
+      "PrimeKey": "Back01",
       "Sprite": null,
-      "Name": "EyePatch",
-      "Type": 0,
-      "Attribute": 1,
-      "Desc": null,
-      "Price": 10
-    },
-    {
-      "PrimeKey": "GreenBandana",
-      "Sprite": null,
-      "Name": "GreenBandana",
-      "Type": 0,
-      "Attribute": 2,
-      "Desc": null,
-      "Price": 20
-    },
-    {
-      "PrimeKey": "BlackBandana",
-      "Sprite": null,
-      "Name": "BlackBandana",
-      "Type": 0,
-      "Attribute": 2,
-      "Desc": null,
-      "Price": 20
-    },
-    {
-      "PrimeKey": "MermaidHair",
-      "Sprite": null,
-      "Name": "MermaidHair",
-      "Type": 0,
+      "Type": 1,
+      "EquipPositions": [
+        0
+      ],
       "Attribute": 5,
       "Desc": null,
-      "Price": 50
+      "Price": 1000
     },
     {
-      "PrimeKey": "SquidHair",
+      "PrimeKey": "Back02",
       "Sprite": null,
-      "Name": "SquidHair",
-      "Type": 0,
+      "Type": 1,
+      "EquipPositions": [
+        0
+      ],
       "Attribute": 10,
       "Desc": null,
-      "Price": 100
+      "Price": 2000
     },
     {
-      "PrimeKey": "BlindFold",
+      "PrimeKey": "Cloth01",
       "Sprite": null,
-      "Name": "BlindFold",
-      "Type": 0,
-      "Attribute": 3,
+      "Type": 2,
+      "EquipPositions": [
+        1
+      ],
+      "Attribute": 5,
       "Desc": null,
-      "Price": 30
+      "Price": 500
     },
     {
-      "PrimeKey": "GreenVest",
+      "PrimeKey": "Cloth02",
       "Sprite": null,
-      "Name": "GreenVest",
-      "Type": 1,
+      "Type": 2,
+      "EquipPositions": [
+        1
+      ],
       "Attribute": 10,
       "Desc": null,
-      "Price": 100
-    },
-    {
-      "PrimeKey": "BlackVest",
-      "Sprite": null,
-      "Name": "BlackVest",
-      "Type": 1,
-      "Attribute": 12,
-      "Desc": null,
-      "Price": 120
-    },
-    {
-      "PrimeKey": "Cloak",
-      "Sprite": null,
-      "Name": "Cloak",
-      "Type": 1,
-      "Attribute": 15,
-      "Desc": null,
-      "Price": 150
+      "Price": 1000
     }
   ]
 }
