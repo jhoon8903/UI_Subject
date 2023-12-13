@@ -8,7 +8,7 @@ namespace _01.Scripts.Managers
 {
     public class UIManager
     {
-        private int _sortOrderNumber = 10;
+        private int _sortOrderNumber = 1;
         private Stack<UIPopup> _popupStack = new();
         private UIScene _uiScene = null;
         private MainManager _mainManager;
@@ -47,13 +47,6 @@ namespace _01.Scripts.Managers
             return popup;
         }
 
-        public void ClosePopUp(UIPopup popup)
-        {
-            if (_popupStack.Count == 0) return;
-            if (_popupStack.Peek() != popup) return;
-            ClosePopUp();
-        }
-
         public void ClosePopUp()
         {
             if (_popupStack.Count == 0) return;
@@ -76,7 +69,6 @@ namespace _01.Scripts.Managers
             Canvas canvas = UtilityToGetAddComponent.GetOrAddComponent<Canvas>(gameObject);
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
             canvas.overrideSorting = true;
-
             if (sort)
             {
                 canvas.sortingOrder = _sortOrderNumber;
