@@ -97,13 +97,11 @@ namespace _01.Scripts.Managers
         public T Load<T>(string key) where T : Object
         {
             if (!_resources.TryGetValue(key, out var resource)) return null;
-            Debug.Log($"RESOURCES : {resource.GetType()}");
             return resource as T;
         }
 
         public GameObject InstantiatePrefab(string key, Transform parent = null)
         { 
-            Debug.Log(key);
             GameObject prefab = Load<GameObject>(key); 
             if (prefab == null)
             {
@@ -131,7 +129,9 @@ namespace _01.Scripts.Managers
                 _resources.Remove(key);
             }
             else
+            {
                 Debug.LogError($"Resource Unload {key}");
+            }
         }
     }
 }

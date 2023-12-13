@@ -15,12 +15,14 @@ namespace _01.Scripts.UI.Base
         private bool _initialized;
         protected Dictionary<Type, Object[]> UIObjects = new();
         protected MainManager MainManager;
+        protected Player Player;
         protected event Action OnEquipChanged; 
         protected virtual bool Initialized()
         {
             if (_initialized) return false;
             _initialized = true;
             MainManager = ServiceLocator.GetService<MainManager>();
+            Player = ServiceLocator.GetService<Player>();
             return _initialized;
         }
 
@@ -50,7 +52,6 @@ namespace _01.Scripts.UI.Base
                 objects[i] = typeof(T) == typeof(GameObject)
                     ? UtilityToFindObject.NoneComponentFormFindChildren(gameObject, names[i], true)
                     : UtilityToFindObject.ComponentFormFindChild<T>(gameObject, names[i], true);
-
                 if (objects[i] == null) Debug.LogWarning($"Failed to bind({names[i]})");
             }
         }
