@@ -17,6 +17,7 @@ namespace _01.Scripts.Managers
 
         public void Initialize()
         {
+            Debug.Log("데이터 매니저 초기화");
             _mainManager = ServiceLocator.GetService<MainManager>();
             Items = LoadJson<ItemDataLoader, string, ItemData>("ItemData").CreateData();
             Jobs = LoadJson<JobDataLoader, string, JobData>("JobData").CreateData();
@@ -27,6 +28,12 @@ namespace _01.Scripts.Managers
         {
             TextAsset textAsset = _mainManager.ResourceManager.Load<TextAsset>(path);
             return JsonConvert.DeserializeObject<TLoader>(textAsset.text);
+        }
+
+        public void SetUpItemData(string key)
+        {
+            var itemSprite = _mainManager.ResourceManager.Load<Sprite>(key);
+
         }
     }
 }

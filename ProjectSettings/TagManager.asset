@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Popup
   - 
   - 
   - 
@@ -38,6 +38,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGround
+    uniqueID: 2052640261
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 9769381
+    locked: 0
+  - name: UI
+    uniqueID: 3281267467
+    locked: 0
+  - name: POPUP
+    uniqueID: 945476527
     locked: 0

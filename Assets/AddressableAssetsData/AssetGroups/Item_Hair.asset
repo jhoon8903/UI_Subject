@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Item_Hair
+  m_EditorClassIdentifier: 
+  m_GroupName: Item_Hair
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9b65d248ddc7748d4861d1772577fdf0
+  m_SerializeEntries:
+  - m_GUID: 97dd5eff083df4f76985e690e6d60a23
+    m_Address: Hair01.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fc5cbe113e51416e9daa8f0ba7ee5dd
+    m_Address: Hair02.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f4813b52b3b74ca6a74d7027ead4b9d
+    m_Address: Hair03.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9926b97e63b2b4f0bb0aaddb7c8d3dee
+    m_Address: Hair04.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cfdf111fc01544c7b58e9c0ef2601ab
+    m_Address: Hair05.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f63083452d68c460db811918d4f6f323
+    m_Address: Hair06.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 287a5844c9fe94dfb88f04f7f90586d0
+    m_Address: Hair07.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5b88e17b8b03471cac1ec6c79715e0f
+    m_Address: Hair08.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e66bc6c623514a2b954b63b58c44e2f
+    m_Address: Hair09.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a04f720901d7e40daa3a509c2ba96a0c
+    m_Address: Hair10.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a221d28f8581d4b5eb0e20fee81c5cc9
+    m_Address: Hair11.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 102ccb2edb80b48cca0777e2323f1a7c
+    m_Address: Hair12.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 555fa4a87b6b8459ba08a841fb8e1f4b
+    m_Address: Hair13.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c914e501961d4d2b9adf2dcc2d8ff8e
+    m_Address: Hair14.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6063378e26704067a2587f07d800ee9
+    m_Address: Hair15.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f32b27de9394bf3489d83d11bf523f21
+    m_Address: Hair16.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fa181de1959b4dac921f0756f002901
+    m_Address: Hair17.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6595b0d4b46cd43a5b517d5475ec1567
+    m_Address: Hair18.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08107ca2f240d4540a1dfbd069e25146
+    m_Address: Hair19.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 418362a88ec484e62b5aae771d2e687e
+    m_Address: Hair20.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d44027b40417a4fd88ee6ebc5e7b3ba5
+    m_Address: Hair21.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0519c0165e34c4e439be04571b1af58f
+    m_Address: Hair22.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 417e081ac47ec7446b1b9a119ad36394
+    m_Address: Hair23.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0738f9b6fc444146ae1b68541e000f5
+    m_Address: Hair24.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33a806a2795e8465296a826af89e28e8
+    m_Address: Hair25.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6472ecd26e224a72b9b5dc31231784b
+    m_Address: Hair26.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ce63253b35484946b3f790c2e4b54dc
+    m_Address: Hair27.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7c72ebe62ba01e4f8be989021267fbc
+    m_Address: Hair28.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef566990d29ef9b43a69464e4e475232
+    m_Address: Hair29.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fd33a6638beeed4ca29d781afc6fb8a
+    m_Address: Hair30.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0751717167b55a43847e8904c89bf3a
+    m_Address: Hair31.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a816c9996d33c74794a28c5a1c1e7eb
+    m_Address: Hair32.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e37027477a387941bdf0b128a49c474
+    m_Address: Hair33.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 491cb7b79a820ef4e8caf22062770893
+    m_Address: Hair34.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f13697fd3c8b59458928cf59fea660f
+    m_Address: Hair35.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93a9a243857ef944ba425e20a9a91b22
+    m_Address: Hair36.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 224141f741d494348afcb758c4be4f38
+    m_Address: Hair37.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 526a63f569f45764bb83cd597474b85e
+    m_Address: Hair38.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11e592b1fafcd784b92a43910cc736b1
+    m_Address: Hair39.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ccaab09cead2a44daee6bc998cbef7d
+    m_Address: Hair40.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 050680dd0362dd14f9a89844ca20b644
+    m_Address: Hair41.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80e0cccdaf539a44c89e4d96d0fcfb3a
+    m_Address: Hair42.sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 78394507884854433882b89a61e85146, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 22665545b35d54a51898973f313a9087, type: 2}
+    - {fileID: 11400000, guid: 07c5110c0dd3b467b99bee05e5da8d7b, type: 2}

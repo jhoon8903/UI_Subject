@@ -15,7 +15,7 @@ namespace _01.Scripts.Managers
            return OnInstantiatePrefab?.Invoke(prefab, parent);
         }
 
-        public static void BindEvent(GameObject gameObject, Action<PointerEventData> action = null,  UIEvent type = UIEvent.Click)
+        public static void BindEvent(this GameObject gameObject, Action<PointerEventData> action = null,  UIEvent type = UIEvent.Click)
         {
             UIEventsHandler eventsHandler= UtilityToGetAddComponent.GetOrAddComponent<UIEventsHandler>(gameObject);
 

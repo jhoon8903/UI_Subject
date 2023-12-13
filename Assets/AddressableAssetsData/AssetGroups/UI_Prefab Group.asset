@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI_Prefab Group
+  m_EditorClassIdentifier: 
+  m_GroupName: UI_Prefab Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a7b4e0cf8666543ce9a35a5ea4502082
+  m_SerializeEntries:
+  - m_GUID: 17279da7726ef46aa96a7de9d1e7bfc5
+    m_Address: ToolTip.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27e505b7f3b0b40208ee1a363759ee83
+    m_Address: UISceneMain.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5a1a2e3b0b0a4f09b28371dbe302ea3
+    m_Address: UnEquipment_Popup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4ef5cee4e4bb49b88f46a5966c4c4ef
+    m_Address: Inventory_Popup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a6416796fd5d405096da55feabeb70b
+    m_Address: Equipment_Popup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bea9047d0c20740a1be569c0d4aca3f2
+    m_Address: EventSystem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38f56ee61a62a484fb3931b8c2f36fcb
+    m_Address: BackGround.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd8401e58f0134eb7947658f66d59504
+    m_Address: Status_Popup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 059b0a022418740279d7e049f08d337b
+    m_Address: Store_Popup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PreLoad
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 78394507884854433882b89a61e85146, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6b2a947eed9e44f5c8b277aab50702b5, type: 2}
+    - {fileID: 11400000, guid: 7c499eeb3f8524354a4312337df77942, type: 2}

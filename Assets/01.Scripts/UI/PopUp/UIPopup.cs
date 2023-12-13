@@ -1,5 +1,7 @@
 using _01.Scripts.UI.Base;
 using _01.Scripts.UI.Scene;
+using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace _01.Scripts.UI.PopUp
 {
@@ -12,9 +14,10 @@ namespace _01.Scripts.UI.PopUp
             return true;
         }
 
-        public virtual void ClosePanel()
+        protected virtual void ClosePopUp(PointerEventData data)
         {
-            MainManager.UIManager.ClosePopUp(this);
+         
+            MainManager.UIManager.ClosePopUp();
         }
     }
 }

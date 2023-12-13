@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace _01.Scripts.Managers
 {
-    public class MainManager : MonoBehaviour 
+    public class MainManager : MonoBehaviour
     {
         private void Awake()
         {
@@ -13,17 +13,18 @@ namespace _01.Scripts.Managers
         }
 
         public void Initialize()
-        {
+        { 
+            Debug.Log("메인 매니저 초기화");
             ObjectManager.Initialized();
             ResourceManager.Initialize();
             UIManager.Initialize();
             DataManager.Initialize();
         }
 
-        public ResourceManager ResourceManager { get; set; } = new();
-        public ObjectManager ObjectManager { get; set; } = new();
-        public UIManager UIManager { get; set; } = new();
-        public DataManager DataManager { get; set; } = new();
+        public ResourceManager ResourceManager { get; } = new();
+        public ObjectManager ObjectManager { get; } = new();
+        public UIManager UIManager { get; } = new();
+        public DataManager DataManager { get; } = new();
 
         public void Clear()
         {
