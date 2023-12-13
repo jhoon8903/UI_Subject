@@ -8,7 +8,8 @@
         2
       ],
       "Attribute": 11,
-      "Desc": null,
+      "AttributeType": "Defense",
+      "Desc": "초보자 갑옷",
       "Price": 100
     },
     {
@@ -19,7 +20,8 @@
         2
       ],
       "Attribute": 20,
-      "Desc": null,
+      "AttributeType": "Defense",
+      "Desc": "중급자 갑옷",
       "Price": 200
     },
     {
@@ -30,7 +32,8 @@
         3
       ],
       "Attribute": 10,
-      "Desc": null,
+      "AttributeType": "Defense",
+      "Desc": "초금자 헬맷",
       "Price": 100
     },
     {
@@ -41,7 +44,8 @@
         3
       ],
       "Attribute": 20,
-      "Desc": null,
+      "AttributeType": "Defense",
+      "Desc": "중급자 헬멧",
       "Price": 110
     },
     {
@@ -53,7 +57,8 @@
         12
       ],
       "Attribute": 15,
-      "Desc": null,
+      "AttributeType": "Defense",
+      "Desc": "초급자 방패",
       "Price": 100
     },
     {
@@ -65,7 +70,8 @@
         12
       ],
       "Attribute": 30,
-      "Desc": null,
+      "AttributeType": "Defense",
+      "Desc": "중급자 방패",
       "Price": 500
     },
     {
@@ -77,7 +83,8 @@
         11
       ],
       "Attribute": 10,
-      "Desc": null,
+      "AttributeType": "Damage",
+      "Desc": "초급자용 무기",
       "Price": 1000
     },
     {
@@ -89,7 +96,8 @@
         11
       ],
       "Attribute": 20,
-      "Desc": null,
+      "AttributeType": "Damage",
+      "Desc": "중급자용 무기",
       "Price": 2000
     },
     {
@@ -100,18 +108,20 @@
         0
       ],
       "Attribute": 5,
-      "Desc": null,
+      "AttributeType": "Critical",
+      "Desc": "초급자 망토",
       "Price": 1000
     },
     {
-      "PrimeKey": "Back02",
+      "PrimeKey": "Baack02",
       "Sprite": null,
       "Type": 1,
       "EquipPositions": [
         0
       ],
       "Attribute": 10,
-      "Desc": null,
+      "AttributeType": "Critical",
+      "Desc": "중급자 망토",
       "Price": 2000
     },
     {
@@ -122,7 +132,8 @@
         1
       ],
       "Attribute": 5,
-      "Desc": null,
+      "AttributeType": "HP",
+      "Desc": "초급자 상의",
       "Price": 500
     },
     {
@@ -133,7 +144,8 @@
         1
       ],
       "Attribute": 10,
-      "Desc": null,
+      "AttributeType": "HP",
+      "Desc": "중급자 상의",
       "Price": 1000
     }
   ]

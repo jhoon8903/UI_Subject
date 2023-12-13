@@ -96,6 +96,7 @@ namespace _01.Scripts.Managers
 
         public T Load<T>(string key) where T : Object
         {
+            Debug.Log(key);
             if (!_resources.TryGetValue(key, out var resource)) return null;
             return resource as T;
         }

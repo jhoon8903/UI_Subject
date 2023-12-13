@@ -17,10 +17,5 @@ namespace _01.Scripts.Managers
             obj.name = prefab.name;
             return obj;
         }
-
-        public void SetupCharacter(CharacterSetup characterPrefab)
-        {
-
-        }
     }
 }
