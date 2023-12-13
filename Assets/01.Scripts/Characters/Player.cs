@@ -19,10 +19,15 @@ namespace _01.Scripts.Characters
         public int MaxHp { get; set; } = 100;
         public List<Dictionary<string, Inventory>> Inventory { get; set; } = new();
 
+        private void Awake()
+        {
+            Debug.Log("플레이어 등록");
+            ServiceLocator.RegisterService(this);
+        }
+
         private void Start()
         {
-            ServiceLocator.RegisterService(this);
-            Debug.Log("플레이어 등록");
+  
             _mainManager = ServiceLocator.GetService<MainManager>();
             InventoryTestSetting();
         }
@@ -52,11 +57,6 @@ namespace _01.Scripts.Characters
            {
                Inventory.Add(inventoryItem); 
            }
-        }
-
-        private void BuyItem(string key)
-        {
-
         }
     }
 }

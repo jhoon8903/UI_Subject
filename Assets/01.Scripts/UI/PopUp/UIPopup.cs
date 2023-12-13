@@ -16,7 +16,6 @@ namespace _01.Scripts.UI.PopUp
 
         protected virtual void ClosePopUp(PointerEventData data)
         {
-         
             MainManager.UIManager.ClosePopUp();
         }
     }

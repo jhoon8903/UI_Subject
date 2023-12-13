@@ -2001,6 +2001,7 @@ GameObject:
   - component: {fileID: 1533241168258775806}
   - component: {fileID: 401421484072584853}
   - component: {fileID: 9116318977838572906}
+  - component: {fileID: 5302900438619102107}
   m_Layer: 5
   m_Name: Equipment_Popup
   m_TagString: Untagged
@@ -2092,6 +2093,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &5302900438619102107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8104982910918873836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab55429f0c5c444fa9346c1505691b45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8919555146076161234
 GameObject:
   m_ObjectHideFlags: 0

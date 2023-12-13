@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3893574172682478277}
   - component: {fileID: 4361845060016684755}
   - component: {fileID: 3638404893762870810}
+  - component: {fileID: 2364032046054194625}
   m_Layer: 5
   m_Name: UnEquipment_Popup
   m_TagString: Untagged
@@ -103,6 +104,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &2364032046054194625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74441981502456056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee700df94924f07837fc8089ca1b7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &114205452992479602
 GameObject:
   m_ObjectHideFlags: 0
