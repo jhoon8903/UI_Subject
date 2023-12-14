@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Linq;
 using _01.Scripts.Data;
+using _01.Scripts.Interfaces;
 using _01.Scripts.Loader;
 using Newtonsoft.Json;
 using UnityEditor;
@@ -19,76 +20,30 @@ namespace _01.Scripts.Editor
         [MenuItem("Tools/CreateJSON")]
         public static void CreateJsonFile()
         {
-            CreateData<ItemDataLoader>("ItemData");
-            CreateData<CharacterDataLoader>("CharacterData");
-            CreateData<JobDataLoader>("JobData");
+            CreateData<ItemDataLoader, ItemData>();
+            CreateData<CharacterDataLoader, CharacterData>();
+            CreateData<JobDataLoader, JobData>();
         }
 
-        private static void CreateData<T>(string csvFileName) where T : new()
+        private static void CreateData<T, TValue>() where T : ILoader<string, TValue>, new()
         {
-            T loader = new();
-            string[] lines = File.ReadAllText($"{CsvFilePath}/{csvFileName}.csv").Split("\n");
+            T loader = new T();
+            string typeName = typeof(TValue).Name;
+            string[] lines = File.ReadAllText($"{CsvFilePath}/{typeName}.csv").Split("\n");
             for (int i = 1; i < lines.Length; i++)
             {
                 string[] row =  lines[i].Replace("\n", "").Split(',');
                 if (row.Length == 0 || string.IsNullOrEmpty(row[0])) continue;
-                MappingData(csvFileName, row, loader);
+                MappingData<T, TValue>(row, loader);
             }
             string jsonFile = JsonConvert.SerializeObject(loader, Formatting.Indented);
-            File.WriteAllText($"{JsonFilePath}/{csvFileName}.json",jsonFile);
+            File.WriteAllText($"{JsonFilePath}/{typeName}.json",jsonFile);
         }
 
-    //     interface DataProcessor
-    //      {
-    //         void processData(Row row, DataLoader loader);
-    //     }
-                
-    //     class ItemDataProcessor implements DataProcessor
-    //      {
-    //         @Override
-    //         public void processData(Row row, DataLoader loader)
-    //          {
-    //              // ItemData 처리 로직
-    //          }
-    //      }
-    //      class JobDataProcessor implements DataProcessor
-    //      {
-    //          @Override
-    //          public void processData(Row row, DataLoader loader)
-    //          {
-    //              // JobData 처리 로직
-    //          }
-    //      }
-
-    // Map<String, DataProcessor> processors = new HashMap<>();
-
-    // processors.put("itemData", new ItemDataProcessor());
-
-    // processors.put("JobData", new JobDataProcessor());
-
-    // DataProcessor processor = processors.get(csvFileName);
-
-    // if (processor != null)
-    // {
-    //     processor.processData(row, loader);
-    // }
-
-        private static void MappingData<T>(string csvFileName, string[] row, T loader) where T : new()
+        private static void MappingData<T, TValue>(string[] row, T loader) where T : ILoader<string, TValue>
         {
-            switch (csvFileName)
-            {
-                case "ItemData":
-                    ItemData(row,loader as ItemDataLoader);
-                    break;
-                case "JobData":
-                    JobData(row, loader as JobDataLoader);
-                    break;
-                case "CharacterData":
-                    CharacterData(row, loader as CharacterDataLoader);
-                    break;
-            }
+            loader.MapData(row);
         }
-
         #endregion
 
         #region DeleteJsonData
@@ -100,60 +55,7 @@ namespace _01.Scripts.Editor
             string path = Application.persistentDataPath + "/SaveData.json";
             if (File.Exists(path)) File.Delete(path);
         }
-    
         #endregion
-
-        #region ItemData
-
-        private static void ItemData(string[] row, ItemDataLoader loader)
-        { 
-            // Splitting the EquipPositions string and converting each part to an enum
-            var equipPosStrings = row[4].Trim(new char[] { '[', ']' }).Split('/');
-            var equipPosEnums = equipPosStrings.Select(s => (EquipPosition)Enum.Parse(typeof(EquipPosition), s)).ToArray();
-
-            loader.items.Add(new ItemData
-            {
-                PrimeKey = row[0],
-                Type = (Itemtypes)Enum.Parse(typeof(Itemtypes), row[1]),
-                Attribute = int.Parse(row[2]),
-                Price = int.Parse(row[3]),
-                EquipPositions = equipPosEnums // Assigning the converted enum array
-            });
-        }
-        #endregion
-
-        #region CharacterData
-
-        private static void CharacterData(string[] row, CharacterDataLoader loader)
-        {
-            loader.character.Add(new CharacterData
-            {
-                PrimeKey = row[0],
-                Name = row[1],
-                JobClass = (JobClass)Enum.Parse(typeof(JobClass),row[2]),
-                Level = int.Parse(row[3]), 
-                Damage = int.Parse(row[4]),
-                Defense = int.Parse(row[5]), 
-                CriticalRate = int.Parse(row[6]), 
-                Inventory = null
-            });
-        }
-
-        #endregion
-
-        #region JobData
-
-        private static void JobData(string[] row, JobDataLoader loader)
-        {
-            loader.jobs.Add(new JobData
-            {
-                JobClass = (JobClass)Enum.Parse(typeof(JobClass), row[0]),
-                Desc = row[1]
-            });
-        }
-
-        #endregion
-
 #endif
     }
 }

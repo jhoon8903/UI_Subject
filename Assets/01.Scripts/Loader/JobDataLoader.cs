@@ -15,5 +15,14 @@ namespace _01.Scripts.Loader
         {
             return jobs.ToDictionary(job => job.JobClass.ToString());
         }
+
+        void ILoader<string, JobData>.MapData(string[] row)
+        {
+            jobs.Add(new JobData
+            {
+                JobClass = (JobClass)Enum.Parse(typeof(JobClass), row[0]),
+                Desc = row[1]
+            });
+        }
     }
 }

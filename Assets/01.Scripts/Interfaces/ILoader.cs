@@ -5,5 +5,6 @@ namespace _01.Scripts.Interfaces
     public interface ILoader<TKey, TValue>
     {
         Dictionary<TKey, TValue> CreateData();
+        void MapData(string[] row);
     }
 }

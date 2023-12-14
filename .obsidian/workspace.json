@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af819e2ff5d8cad7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "bc3670eb1d9c05e3",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,19 +148,18 @@
   },
   "active": "bc3670eb1d9c05e3",
   "lastOpenFiles": [
+    "ReadMe.md",
     "Temp/ADB-Refresha3f94b52ab7444739962a1f379114b38",
     "Temp/ADB-Refresh0058ba6836a234bd38a31ecf2df08525",
     "Temp/ADB-Refresh72b9f41f751a943959025c09949e108a",
     "Temp/ADB-Refreshd61cb8fe85323402fbad7b085dbe3861",
     "Screenshot 2023-12-13 at 10.30.16 PM.jpg",
-    "ReadMe.md",
     "Screenshot 2023-12-13 at 10.30.16 PM 1.jpg",
     "Temp/ADB-Refresha840bc6b8bd7242aa88442eebb326dfb",
     "Temp/ADB-Refresh219f2fc78900040c28c6577795e2b34d",
     "Temp/ADB-Refreshb4a3126e591a34d0db9a102646af35fb",
     "Library/ProtocolInstance.json",
     "Temp/ADB-Refreshbf77c9f1b547b4f4693d3fe24ef01036",
-    "Temp/ADB-Refresh5de77e3b27aa84dac8a8ca8792683465",
-    "Library/Bee/TundraBuildState.state"
+    "Temp/ADB-Refresh5de77e3b27aa84dac8a8ca8792683465"
   ]
 }
